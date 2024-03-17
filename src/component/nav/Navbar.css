@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: white;
+    border: 2px solid wheat;
+    border-radius: 20px;
+}
+.nav-link{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 60%;
+    
+    }
+
+.home,.about,.service,.forms,.contact{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.navbar li:hover{
+    color: rgb(238, 68, 6);
+}
+.mobile-menu{
+    display: none;
+}
+@media screen and (max-width:780px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top:15px;
+        left:35px;
+    }
+    .nav-link{
+        display: none;
+    }
+    .nav-mobile-bar{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: antiquewhite;
+        left: 0;
+        top: 200px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .home,.about,.service,.forms,.contact{
+        color: black;
+        text-align: center;
+        padding: 40px;
+    
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        display: block;
+        position: absolute;
+        font-size: 35px;
+        color: black;
+        
+        width: 70px;
+        border-radius: 20px;
+        background-color: aliceblue;
+        top: 4opx;
+        right: 40px;;
+    }
+    
+} 
+
+
+

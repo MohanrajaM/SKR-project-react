@@ -1,0 +1,103 @@
+.containerr {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: azure;
+    width: 100vw; 
+    padding: 20px;
+    box-sizing: border-box; 
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    flex-grow: 1;
+    margin-left: 20px; 
+  }
+  
+  .content h1,
+  .content h2 {
+    color: black;
+  }
+  
+  .content h2 {
+    margin-top: 20px;
+  }
+  .content h5 {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+
+  .content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .content ul li {
+    margin-bottom: 10px;
+  }
+  
+  
+  .content ul li:before {
+    content: '• ';
+    color: #333;
+    font-weight: bold;
+  }
+  
+  
+  .mission {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .mission h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  
+  .vision {
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .vision h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  
+  .infrastructure {
+    background-color: #fff5e6;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .infrastructure h2 {
+    color: #ff6600;
+    margin-bottom: 10px;
+  }
